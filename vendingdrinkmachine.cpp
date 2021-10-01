@@ -17,7 +17,7 @@ void process(int amount,int paise){
                 cout<<"Enter the amount again \n";
                 cin>>paise;
                 if(amount==paise){
-                donepayment(paise,amount);
+                donepayment();
                 }
             }
             else if(paise==amount){
